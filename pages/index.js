@@ -18,6 +18,9 @@ export default function Home() {
           and <span> Privacy Policy</span>
         </p>
       </div>
+      <div className={styles.footer}>
+        <p>Copyright © 2020 Ángel Vāzquez.</p>
+      </div>
     </div>
   );
 }
