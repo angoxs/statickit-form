@@ -10,7 +10,7 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <div className={styles.group}>
-        <h1>Una pequeña pero bien hecha forma de contacto.</h1>
+        <h1>Un formulario de contacto pequeño pero bien hecho_</h1>
         <ContactForm />
 
         <p>
