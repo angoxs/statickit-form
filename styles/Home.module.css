@@ -1,0 +1,71 @@
+.container {
+  min-height: 100vh;
+  padding: 0 0.5rem;
+  display: flex;
+  flex-direction: column;
+  background: #090e18;
+}
+
+.group {
+  display: flex;
+  flex-direction: column;
+  margin: 0 auto;
+  padding: 90px 20px;
+  max-width: 700px;
+  text-align: center;
+  font-weight: 900;
+}
+
+.group p {
+  color: white;
+  font-size: 14px;
+  margin-left: 7px;
+}
+
+.group p span {
+  color: rgba(255, 255, 255, 0.7);
+}
+
+.group h1 {
+  background: linear-gradient(
+    90.14deg,
+    #ba7ecf 2.9%,
+    #f19ed0 23.1%,
+    #948df2 44.99%,
+    #b9c2ff 75.22%,
+    #fbcea5 101.86%
+  );
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-size: 71px;
+}
+
+.group button {
+  background: #5452f6;
+  align-self: center;
+  padding: 20px 50px;
+  font-size: 18px;
+  border: none;
+  color: white;
+  font-weight: bold;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: all 200ms ease-in-out;
+}
+
+.group button:hover {
+  box-shadow: 0 20px 40px rgba(84, 82, 246, 0.2);
+  transform: translateY(-6px);
+}
+
+@media (max-width: 900px) {
+  .group h1 {
+    font-size: 50px;
+  }
+}
+
+@media (max-width: 600px) {
+  .group h1 {
+    font-size: 40px;
+  }
+}
