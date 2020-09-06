@@ -10,7 +10,7 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <div className={styles.group}>
-        <h1>The ultimate React component library_</h1>
+        <h1>The ultimate React & Next component library_</h1>
         <p>
           Introducing BuildKit, the fastest way to build and deploy websites
           with React.
