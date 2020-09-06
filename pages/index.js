@@ -12,8 +12,8 @@ export default function Home() {
       <div className={styles.group}>
         <h1>The ultimate React component library_</h1>
         <p>
-          Skip the headache of searching for front-end React UI component
-          libraries and build your own in minutes.
+          Introducing BuildKit, the fastest way to build and deploy websites
+          with React.
         </p>
         <ContactForm />
       </div>
